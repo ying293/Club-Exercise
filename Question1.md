@@ -15,5 +15,5 @@ The only input line contains an Integer
 Print a line that contains all values of n during the algorithm. 
 
 ## Constraints:
-- $1<= n <= 10^6$
+- $1 \geq n \seq 10^6$
 
