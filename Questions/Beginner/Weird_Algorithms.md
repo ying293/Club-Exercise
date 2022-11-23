@@ -9,10 +9,20 @@ Your task is to simulate the execution of the algorithm for a given value of n.
 
 ## Input:
 The only input line contains an Integer
+n= int(input('postive integer:'))
 
+for i in range(8):
+
+  if n==0:
+    n=n/2
+    print(n,end= ' ')
+  else:
+    result= (n* 3)+1
+    print(n,end= ' ')
 
 ## Output: 
 Print a line that contains all values of n during the algorithm. 
+print(result)
 
 ## Constraints:
 - $1 \leq n \leq 10^6$
